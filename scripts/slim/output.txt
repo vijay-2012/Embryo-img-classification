@@ -1,0 +1,15 @@
+File name 	 Ground truth 	 Predicted label 
+../../Images/test/poor_27002081_-15_1BB.jpg	Poor	Poor
+../../Images/test/poor_27002081_0_1BB.jpg	Poor	Poor
+../../Images/test/good_23765483_-30_3AA.jpg	Good	Good
+../../Images/test/good_23765483_-45_3AA.jpg	Good	Good
+../../Images/test/poor_27002081_-30_1BB.jpg	Poor	Poor
+../../Images/test/poor_27002081_30_1BB.jpg	Poor	Poor
+../../Images/test/poor_27002081_15_1BB.jpg	Poor	Poor
+../../Images/test/good_23765483_15_3AA.jpg	Good	Good
+../../Images/test/poor_27002081_45_1BB.jpg	Poor	Poor
+../../Images/test/good_23765483_-15_3AA.jpg	Good	Good
+../../Images/test/good_23765483_45_3AA.jpg	Good	Good
+../../Images/test/poor_27002081_-45_1BB.jpg	Poor	Poor
+../../Images/test/good_23765483_0_3AA.jpg	Good	Good
+../../Images/test/good_23765483_30_3AA.jpg	Good	Good
