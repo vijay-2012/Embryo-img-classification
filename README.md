@@ -19,7 +19,11 @@ To train the model, please follow these steps:
     ```bash
    python scripts/convert.py Images/train scripts/process/ 0
    ```
-3. Navigate to scripts/slim/run and run the following command.
+
+    Keep the percentage of validation images as 0 because we set 15% for validation inside the code
+
+    It will save converted TFrecords in the "process" directory.
+3. Navigate to scripts/slim/run and run the following command to train the model.
 
     ```bash
    ./load_inception_v1.sh
@@ -31,3 +35,5 @@ To train the model, please follow these steps:
     ```bash
    python ../predict.py v1 ../../result/ ../../../Images/test ../output.txt 2
    ```
+
+   It will save the output in a text file, also provides the evaluation metrics (Accuracy, Specificity, Sensitivity, Confusion matrix).
